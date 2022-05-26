@@ -1,14 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-
-import Inicio from './juego/Inicio';
+import Game from './juego/juego';
+//import Inicio from './juego/Inicio';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+
   <React.StrictMode>
-    <Inicio />
+    <Game />
   </React.StrictMode>
 );
 

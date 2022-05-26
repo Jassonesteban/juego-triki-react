@@ -1,4 +1,18 @@
-import logo from '../logo.svg'; //.. dos puntos son para salir de un directoria y buscar por fuera
+//import logo from '../logo.svg';
+//import React from 'react';
+//import ReactDOM from 'react-dom/client';
+ //.. dos puntos son para salir de un directoria y buscar por fuera
+
+
+
+/*
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Game/>);
+*/
+
+
+
+/*
 
 function Inicio ()
 {
@@ -9,5 +23,6 @@ function Inicio ()
         </div>
     );
 }
+*/
 
-export default Inicio;
+//export default Square;
