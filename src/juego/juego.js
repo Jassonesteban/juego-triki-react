@@ -2,7 +2,7 @@ import React from 'react';
 import calculateWinner from './ganador';
 import Board from './tablero';
 
-class Game extends React.Component {
+export class Game extends React.Component {
     constructor(props){
         super(props);
         this.state = {
@@ -16,7 +16,7 @@ class Game extends React.Component {
         };
     }
 
-    handleClick(i)
+    handleClick(i) //Hizo click en un cuadro
     {
         const history = this.state.history.slice(0, this.state.stepNumber + 1);
         const current = history[history.length - 1];
@@ -85,4 +85,4 @@ class Game extends React.Component {
     }
 }
 
-export default Game
+//export default Game
